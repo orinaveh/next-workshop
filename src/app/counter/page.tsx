@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 
 const Counter: React.FC = () => {
-    // extract the logic to a custom hook
     const [count, setCount] = useState(1);
     const [todo, setTodo] = useState<{
         userId: number;
