@@ -15,7 +15,7 @@ const Counter: React.FC = () => {
         setCount(newCount);
         fetch(`https://jsonplaceholder.typicode.com/todos/${newCount}`).then(
             (response) => response.json().then(setTodo)
-        ).then
+        )
     };
 
     const decrement = () => {
